@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>login</title>
+        <mate charset="utf-8">
+        <link rel="stylesheet" href="style.css">  
+        <script defer src="main.js"></script> 
+    </head>
+    <body>
+        <h1>Login</h1>
+        
+            <form name="login-form">
+                <fieldset>
+                    <legend> Enter your information</legend>
+                        <label for="username">username: </label>
+                        <input type="text" name="username" id="username" required> <br>
+                        <label for="password">password: </label>
+                        <input type="password" name="password" maxlength="8" id="password" required> <br>
+                        <a href="index.html">
+                    
+                    
+                    <button>
+                        <input type="submit" name="submit" value="login" id="login-submit" onclick="check(this.form)">
+                    </button>
+                </a>
+                </fieldset>
+            </form>
+      <!--  <div>
+            <p id="error1">
+                Invalid username
+                <span id="error2" >and/or password</span>
+            </p>
+        </div> -->
+        <footer class="footer-text">
+            &copy; 2021
+        </footer>
+    </body>
+</html>
